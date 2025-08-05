@@ -1,3 +1,3 @@
-# WarnEpi 0.4.0
+# WarnEpi 1.0.0
 
 * Initial CRAN submission.
