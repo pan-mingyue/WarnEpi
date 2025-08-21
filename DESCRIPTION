@@ -25,6 +25,7 @@ Description:
     - Wang et al. (2015) <doi:10.1371/journal.pone.0119923>
     Designed for epidemiologists and public health researchers working with
     disease surveillance systems.
+Language: en
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true

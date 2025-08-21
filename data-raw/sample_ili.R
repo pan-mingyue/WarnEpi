@@ -32,7 +32,7 @@ dates <- seq(as.Date("2021-01-01"), by = "7 days", length.out = length(cases))
 sample_ili <- data.frame(date = dates, case = cases)
 
 # save
-usethis::use_data(sample_ili, overwrite = TRUE)
+save(sample_ili, file = "data/sample_ili.rda", compress = "xz")
 
 #
 rm(list = setdiff(ls(), "sample_ili"))
